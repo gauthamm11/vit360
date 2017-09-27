@@ -1,0 +1,51 @@
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.side-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .stafab{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+  }
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 10px 0px 100px 0px #252424;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  color: rgba(255, 51, 51, 0.75);
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 40px;
+   // margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, 
+change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
