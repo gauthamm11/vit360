@@ -81,7 +81,7 @@ if (!$conn) {
 <div class="container-fluid" onclick="closeBav()" style="padding-bottom: 20%;">
 <br><br><br><br>
 <center>
- <a href="gco.JPG" data-lightbox="image-1" class="example-image-link" data-title="Gautham Asok"><img src="gco.JPG" width="150" height="auto" class="img-circle img-responsive" /></a>
+ <a href="gco.JPG" data-lightbox="image-1" class="example-image-link" data-title="Mindala Gautham Asok"><img src="gco.JPG" width="150" height="auto" class="img-circle img-responsive" /></a>
 
 <br>
 <div class="container-fluid" style="color: #337ab7;">
